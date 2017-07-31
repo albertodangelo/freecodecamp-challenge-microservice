@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API Microservice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>API Basejump - Timestamp microservice</h1>
+<p>Als Parameter kann ein Datum oder ein Unix-Timestamp oder ein Datum im englischen Format übergeben werden. Es wird immer der Timestamp und das entsprechende Datum im JSON-Format (deutsch) zurückgegeben. Bei einer fehlerhaften Eingabe wird "null" als Wert geliefert.</p>
+<h2>Beispiel der Eingabe</h2>
+<p class="grey">
+	https://timestamp-ms.herokuapp.com/December%2015,%202015<br />
+	https://timestamp-ms.herokuapp.com/1450137600
+</p>
+<h2>Beispiel der Ausgabe</h2>
+<p class="grey">
+{ "unix": 1450137600, "natural": "15. Dezember 2015" } 
+</p>
+</body>
+</html>

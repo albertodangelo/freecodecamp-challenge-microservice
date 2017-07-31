@@ -1,0 +1,22 @@
+{
+  "name": "codecamp_microservice",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Microservice Challenge - es soll ein Webservice eingerichtet werden, bei dem ein unix time code als Paramete übergeben werden kann und dann ein JSON formatiertes Resultat mit der Zeit und dem unix Code zurückgegeben wird ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertodangelo/freecodecamp-challenge-microservice.git"
+  },
+  "author": "alberto d'angelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertodangelo/freecodecamp-challenge-microservice/issues"
+  },
+  "homepage": "https://github.com/albertodangelo/freecodecamp-challenge-microservice#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
